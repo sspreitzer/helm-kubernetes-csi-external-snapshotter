@@ -1,0 +1,6 @@
+*.tgz
+.git
+.gitignore
+.gitlab-ci.yml
+Makefile
+.helmignore

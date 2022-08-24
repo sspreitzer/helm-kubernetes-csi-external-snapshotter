@@ -17,6 +17,7 @@ customizations.yml:
 volumeSnapshotClasses:
   - name: default
     driver: driver.longhorn.io
+    isDefault: true
   - name: longhorn
     driver: driver.longhorn.io
 ```

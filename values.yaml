@@ -1,0 +1,6 @@
+volumeSnapshotClasses:
+  - name: default
+    driver: driver.example.com
+    deletionPolicy: Delete
+    parameters: {}
+

@@ -1,0 +1,19 @@
+apiVersion: v2
+name: kubernetes-csi-external-snapshotter
+version: 6.0.0
+description: Helm Chart for the Kubernetes SIG CSI External Snapshotter
+keywords:
+  - helm
+  - kubernetes
+  - csi
+  - storage
+home: https://git.spreitzer.ch/helm/kubernetes-csi-external-snapshotter
+sources:
+  - https://git.spreitzer.ch/helm/kubernetes-csi-external-snapshotter.git
+  - https://github.com/sspreitzer/helm-kubernetes-csi-external-snapshotter.git
+maintainers:
+  - name: Sascha Spreitzer
+    email: sascha@spreitzer.ch
+    url: https://github.com/sspreitzer
+icon: https://kubernetes.io/images/favicon.png
+appVersion: 6.0.1

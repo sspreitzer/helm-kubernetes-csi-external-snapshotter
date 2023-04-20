@@ -1,4 +1,4 @@
-VERSION:=6.0.1
+VERSION:=6.2.1
 
 all:
 	curl -L -o crds/snapshot.storage.k8s.io_volumesnapshotclasses.yaml https://raw.githubusercontent.com/kubernetes-csi/external-snapshotter/v$(VERSION)/client/config/crd/snapshot.storage.k8s.io_volumesnapshotclasses.yaml

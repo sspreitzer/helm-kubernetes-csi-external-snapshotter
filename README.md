@@ -5,7 +5,7 @@ For when you need a Helm Chart to deploy the Kubernetes SIG CSI External Snapsho
 ## Installation with Helm
 
 ```shell
-helm repo add spreitzer https://registry.spreitzer.ch/chartrepo/helm
+helm repo add spreitzer https://charts.spreitzer.ch
 helm repo update spreitzer
 helm install k8s-csi-snapshotter spreitzer/kubernetes-csi-external-snapshotter --namespace kube-system
 ```
